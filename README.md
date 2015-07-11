@@ -1,7 +1,7 @@
 Nagios View
 ===========
 
-a simple CLI doshboard for nagios using the status.dat file
+a simple CLI dashboard for nagios using the status.dat file
 
 NOTE: as of right now this acts as a "dashboard" - it can only read status.
 
@@ -49,7 +49,7 @@ Usage
     $ nagios-view -h
     usage: nagios-view [-hHnpsw] [-f /path/to/status.dat]
 
-    a simple CLI doshboard for nagios using the status.dat file
+    a simple CLI dashboard for nagios using the status.dat file
 
     options
       -f, --file <file>         supply the path to status.dat as <file>, defaults to /var/spool/nagios/status.dat

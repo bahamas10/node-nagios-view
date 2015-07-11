@@ -1,7 +1,7 @@
 {
   "name": "nagios-view",
   "version": "0.0.0",
-  "description": "a simple CLI doshboard for nagios using the status.dat file",
+  "description": "a simple CLI dashboard for nagios using the status.dat file",
   "main": "nagios-view.js",
   "preferGlobal": true,
   "dependencies": {

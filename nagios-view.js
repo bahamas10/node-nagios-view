@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * a simple CLI doshboard for nagios using the status.dat file
+ * a simple CLI dashboard for nagios using the status.dat file
  *
  * Author: Dave Eddy <dave@daveeddy.com>
  * Date: May 29, 2015
@@ -39,7 +39,7 @@ var opts = {
 var usage = [
   'usage: nagios-view [-hHnpsw] [-f /path/to/status.dat]',
   '',
-  'a simple CLI doshboard for nagios using the status.dat file',
+  'a simple CLI dashboard for nagios using the status.dat file',
   '',
   'options',
   '  -f, --file <file>         supply the path to status.dat as <file>, defaults to ' + opts.file,
