@@ -1,0 +1,36 @@
+{
+  "name": "nagios-view",
+  "version": "0.0.0",
+  "description": "a simple CLI doshboard for nagios using the status.dat file",
+  "main": "nagios-view.js",
+  "preferGlobal": true,
+  "dependencies": {
+    "clear": "^0.0.1",
+    "extsprintf": "^1.3.0",
+    "cli-color": "^1.0.0",
+    "human-time": "^0.0.1",
+    "latest": "^0.2.0",
+    "nagios-status-parser": "^0.0.0",
+    "posix-getopt": "^1.1.0"
+  },
+  "bin": {
+    "nagios-view": "./nagios-view.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/node-nagios-view.git"
+  },
+  "keywords": [
+    "nagios"
+  ],
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahamas10/node-nagios-view/issues"
+  },
+  "homepage": "https://github.com/bahamas10/node-nagios-view#readme"
+}
