@@ -39,6 +39,9 @@ var opts = {
 var usage = [
   'usage: nagios-view [-hHnpsw] [-f /path/to/status.dat]',
   '',
+  'a simple CLI doshboard for nagios using the status.dat file',
+  '',
+  'options',
   '  -f, --file <file>         supply the path to status.dat as <file>, defaults to ' + opts.file,
   '  -h, --help                print this message and exit',
   '  -u, --updates             check for available updates',
